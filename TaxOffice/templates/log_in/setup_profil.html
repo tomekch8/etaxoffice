@@ -1,0 +1,6 @@
+<h2>Uzupełnij dane sprzedawcy</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Zapisz i wyślij weryfikację</button>
+</form>

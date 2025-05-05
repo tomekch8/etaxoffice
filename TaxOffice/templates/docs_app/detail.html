@@ -1,0 +1,43 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podgląd PDF</title>
+</head>
+<body>
+    <!-- Miejsce do podglądu PDF -->
+    <div id="pdf-container"></div>
+
+    <!-- Import pdf.js z CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+
+    <!-- Twój skrypt do renderowania PDF -->
+    <script>
+        const url = '/static/sample.pdf'; // Ścieżka do pliku PDF
+
+        const container = document.getElementById("pdf-container");
+
+        // Ustaw ścieżkę do pliku "worker" PDF.js
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+
+        // Załaduj dokument PDF
+        pdfjsLib.getDocument(url).promise.then(function(pdf) {
+            pdf.getPage(1).then(function(page) {
+                const viewport = page.getViewport({ scale: 1.5 }); // Skalowanie PDF
+                const canvas = document.createElement("canvas");
+                const context = canvas.getContext("2d");
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+                container.appendChild(canvas);
+
+                const renderContext = {
+                    canvasContext: context,
+                    viewport: viewport
+                };
+                page.render(renderContext); // Renderowanie strony PDF
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podgląd PDF</title>
+</head>
+<body>
+<form method="get">
+    <input type="date" name="start_date" placeholder="Od daty">
+    <input type="date" name="end_date" placeholder="Do daty">
+    <input type="text" name="tag" placeholder="Szukany tag">
+    <button type="submit">Filtruj</button>
+</form>
+
+<a href="{% url 'document_detail' document.id %}">Podgląd</a>
+
+<table>
+  <thead>
+    <tr>
+      <th><a href="?sort_by=name">Nazwa</a></th>
+      <th><a href="?sort_by=added_date">Data dodania</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for document in documents %}
+      <tr>
+        <td>{{ document.name }}</td>
+        <td>{{ document.added_date }}</td>
+        <td><a href="{{ document.file.url }}">Pobierz</a></td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</body>
+</html>

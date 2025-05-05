@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7da43771-17b1-413a-8ea7-688a7ec9fb4c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/etax_office_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/docs_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/docs_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/log_in/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/log_in/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/log_in/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/docs_app/cdn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/docs_app/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/docs_app/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/docs_app/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/log_in/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/log_in/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/log_in/profile_email_sent.html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/log_in/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaxOffice/templates/log_in/setup_profil.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.12/site-packages/django/contrib/auth/base_user.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_HOME_DIR$/plugins/python/helpers-pro/bundled_stubs/django-stubs/contrib/auth/models.pyi" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2wdiZR3Uh5UxtZocVxcOWy2mPwJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/itomech/Pulpit/etax_office_Project/TaxOffice/docs_app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TaxOffice/docs_app" />
+      <recent name="$PROJECT_DIR$/TaxOffice/templates/log_in" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
+        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7da43771-17b1-413a-8ea7-688a7ec9fb4c" name="Changes" comment="" />
+      <created>1746377906724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746377906724</updated>
+      <workItem from="1746377907805" duration="49317000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
